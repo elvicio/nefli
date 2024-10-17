@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Detalles de la Película</title>
+ </head>
+ <body>
+  <header>
+   <nav>
+    <h1>Netflix Clone</h1>
+    <ul>
+     <li><a href="movies.html">Películas</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <main>
+   <div class="movie-detail">
+    <div class="background-image" id="background-image"></div>
+    <div class="info">
+     <h2 id="movie-title"></h2>
+     <p id="synopsis"></p>
+     <div class="tech-info">
+      <p><strong>Director:</strong> <span id="director"></span></p>
+      <p><strong>Año:</strong> <span id="year"></span></p>
+      <p><strong>Duración:</strong> <span id="duration"></span></p>
+     </div>
+     <h3>Tráiler</h3>
+     <div id="trailer"></div>
+     <h3>Actores</h3>
+     <ul id="cast"></ul>
+     <h3>Imágenes Relacionadas</h3>
+     <div id="related-images" class="related-images"></div>
+    </div>
+   </div>
+  </main>
+
+  <footer>
+   <p>&copy; 2024 Netflix Clone</p>
+  </footer>
+
+  <script src="script.js"></script>
+ </body>
+</html>
